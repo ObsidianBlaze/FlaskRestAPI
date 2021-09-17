@@ -71,4 +71,6 @@ To view the output on the browser, visit <http://localhost:5000/>
 
 [DELETE REQUEST](/DELETE_REQUEST.md)
 
+## DATABASE CONFIGURATION
+
 [DATABASE CONNECTIVITY](/DATABASE_SETUP.md)
