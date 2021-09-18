@@ -1,3 +1,4 @@
+from os import error
 from flask import Flask
 # Import sql alchemy
 from flask_sqlalchemy import SQLAlchemy
@@ -29,6 +30,15 @@ class Book(db.Model):
     # Getting all books
     def get_all_books():
         return Book.query.all()
+
+    # Getting a single book
+    def get_single_book(_isbn):
+        try:
+        # Using a chain and a dot notation to access the first data in the column isbn and return the data of the book
+         data = Book.query.filter_by(isbn = _isbn).first()
+         return data
+        except:
+            return "Some error occured"
 
     # Beautifying the structure of the output
     def __repr__(self):
