@@ -26,7 +26,7 @@ Read more on flask URI here:
 
 ## Step 1
 
-Create a file called BookModel.py in the same directory as the app.py
+Create a file called `BookModel.py` in the same directory as the app.py
 
 ## Step 2
 

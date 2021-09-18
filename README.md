@@ -74,3 +74,7 @@ To view the output on the browser, visit <http://localhost:5000/>
 ## DATABASE CONFIGURATION
 
 [DATABASE CONNECTIVITY](/DATABASE_SETUP.md)
+
+## WORKING WITH A MODEL
+
+[MODEL_MANIPULATION](/SIMPLE_MODEL.md)
